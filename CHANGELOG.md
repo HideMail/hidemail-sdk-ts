@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.0.3 (2025-08-08)
+
+Full Changelog: [v0.0.2...v0.0.3](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.2...v0.0.3)
+
+### Features
+
+* **api:** update via SDK Studio ([7b0a0c8](https://github.com/HideMail/hidemail-sdk-ts/commit/7b0a0c8010697a2aec4b8166aa5921960cecc86e))
+
+
+### Chores
+
+* configure new SDK language ([57808c8](https://github.com/HideMail/hidemail-sdk-ts/commit/57808c8b295a2dd6bd07df6932137cc77f5baf66))
+
 ## 0.0.2 (2025-08-08)
 
 Full Changelog: [v0.0.1...v0.0.2](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.1...v0.0.2)
