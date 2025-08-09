@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.5 (2025-08-09)
+
+Full Changelog: [v0.0.4...v0.0.5](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.4...v0.0.5)
+
+### Chores
+
+* **internal:** update comment in script ([0d2118c](https://github.com/HideMail/hidemail-sdk-ts/commit/0d2118c61cfbea34046532330d794882d138df7f))
+
 ## 0.0.4 (2025-08-09)
 
 Full Changelog: [v0.0.3...v0.0.4](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.3...v0.0.4)
