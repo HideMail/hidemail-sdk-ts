@@ -1,6 +1,6 @@
 {
   "name": "hidemail-mcp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The official MCP Server for the Hidemail API",
   "author": "Hidemail <>",
   "types": "dist/index.d.ts",

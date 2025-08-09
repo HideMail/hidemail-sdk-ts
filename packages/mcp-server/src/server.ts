@@ -26,7 +26,7 @@ export const newMcpServer = () =>
   new McpServer(
     {
       name: 'hidemail_api',
-      version: '0.0.4',
+      version: '0.0.5',
     },
     { capabilities: { tools: {}, logging: {} } },
   );
