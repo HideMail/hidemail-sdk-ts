@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.4 (2025-08-09)
+
+Full Changelog: [v0.0.3...v0.0.4](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.3...v0.0.4)
+
+### Chores
+
+* update @stainless-api/prism-cli to v5.15.0 ([f29f332](https://github.com/HideMail/hidemail-sdk-ts/commit/f29f332978748f9d884955ed7cad2794effd9fd4))
+
 ## 0.0.3 (2025-08-08)
 
 Full Changelog: [v0.0.2...v0.0.3](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.2...v0.0.3)
