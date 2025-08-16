@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.0.6 (2025-08-16)
+
+Full Changelog: [v0.0.5...v0.0.6](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.5...v0.0.6)
+
+### Chores
+
+* **deps:** update dependency @types/node to v20.17.58 ([720b12d](https://github.com/HideMail/hidemail-sdk-ts/commit/720b12df5466bf9c2c920b0d058ad1506d0e5036))
+* **internal:** codegen related update ([ca8aef6](https://github.com/HideMail/hidemail-sdk-ts/commit/ca8aef6580768af7d33a6d31da28c6809dbd2b66))
+* **internal:** formatting change ([1141d26](https://github.com/HideMail/hidemail-sdk-ts/commit/1141d26965cfa84268449a3d7fe2b85ef7c27e0e))
+* **mcp:** document remote server in README.md ([0a162f0](https://github.com/HideMail/hidemail-sdk-ts/commit/0a162f031c219870c8044ea5cd569cdc5bdb257b))
+* **mcp:** minor cleanup of types and package.json ([03a2daf](https://github.com/HideMail/hidemail-sdk-ts/commit/03a2daffc0d977d93fe9fae0f1f4798d8d89109b))
+* **mcp:** update README ([0ad3f66](https://github.com/HideMail/hidemail-sdk-ts/commit/0ad3f66c577bc439b4b54957d3ab01fd816d1aa0))
+
 ## 0.0.5 (2025-08-09)
 
 Full Changelog: [v0.0.4...v0.0.5](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.4...v0.0.5)
