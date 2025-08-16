@@ -725,8 +725,10 @@ export class Hidemail {
   v1: API.V1 = new API.V1(this);
   user: API.User = new API.User(this);
 }
+
 Hidemail.V1 = V1;
 Hidemail.User = User;
+
 export declare namespace Hidemail {
   export type RequestOptions = Opts.RequestOptions;
 
