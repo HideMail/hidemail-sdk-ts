@@ -17,7 +17,7 @@ export const parseAuthHeaders = (req: IncomingMessage): Partial<ClientOptions> =
   }
 
   const apiKey =
-    req.headers['x-hidemail-api-key'] instanceof Array ?
+    Array.isArray(req.headers['x-hidemail-api-key']) ?
       req.headers['x-hidemail-api-key'][0]
     : req.headers['x-hidemail-api-key'];
   return { apiKey };
