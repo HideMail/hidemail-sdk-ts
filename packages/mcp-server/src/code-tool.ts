@@ -1,10 +1,8 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { type ClientOptions } from 'hidemail/client';
-
 import { dirname } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import Hidemail from 'hidemail';
+import Hidemail, { ClientOptions } from 'hidemail';
 import { Endpoint, ContentBlock, Metadata } from './tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';

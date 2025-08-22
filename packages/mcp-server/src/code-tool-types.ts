@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { type ClientOptions } from 'hidemail/client';
+import { ClientOptions } from 'hidemail';
 
 export type WorkerInput = {
   opts: ClientOptions;
