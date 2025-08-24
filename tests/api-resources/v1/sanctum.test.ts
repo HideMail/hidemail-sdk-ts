@@ -8,7 +8,7 @@ const client = new Hidemail({
 });
 
 describe('resource sanctum', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createToken: only required params', async () => {
     const responsePromise = client.v1.sanctum.createToken({
       device_name: 'Raycast',
@@ -24,7 +24,7 @@ describe('resource sanctum', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createToken: required and optional params', async () => {
     const response = await client.v1.sanctum.createToken({
       device_name: 'Raycast',

@@ -8,7 +8,7 @@ const client = new Hidemail({
 });
 
 describe('resource aliases', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create', async () => {
     const responsePromise = client.v1.aliases.create();
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource aliases', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
@@ -28,7 +28,7 @@ describe('resource aliases', () => {
     ).rejects.toThrow(Hidemail.NotFoundError);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('list', async () => {
     const responsePromise = client.v1.aliases.list();
     const rawResponse = await responsePromise.asResponse();
@@ -40,7 +40,7 @@ describe('resource aliases', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('list: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(client.v1.aliases.list({}, { path: '/_stainless_unknown_path' })).rejects.toThrow(
@@ -48,7 +48,7 @@ describe('resource aliases', () => {
     );
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('updateNote: only required params', async () => {
     const responsePromise = client.v1.aliases.updateNote({
       email: 'alias@hidemail.app',
@@ -63,7 +63,7 @@ describe('resource aliases', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('updateNote: required and optional params', async () => {
     const response = await client.v1.aliases.updateNote({
       email: 'alias@hidemail.app',
