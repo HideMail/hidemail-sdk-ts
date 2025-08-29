@@ -376,7 +376,7 @@ export class Hidemail {
     const response = await this.fetchWithTimeout(url, req, timeout, controller).catch(castToError);
     const headersTime = Date.now();
 
-    if (response instanceof Error) {
+    if (response instanceof globalThis.Error) {
       const retryMessage = `retrying, ${retriesRemaining} attempts remaining`;
       if (options.signal?.aborted) {
         throw new Errors.APIUserAbortError();
@@ -683,7 +683,7 @@ export class Hidemail {
         // Preserve legacy string encoding behavior for now
         headers.values.has('content-type')) ||
       // `Blob` is superset of `File`
-      body instanceof Blob ||
+      ((globalThis as any).Blob && body instanceof (globalThis as any).Blob) ||
       // `FormData` -> `multipart/form-data`
       body instanceof FormData ||
       // `URLSearchParams` -> `application/x-www-form-urlencoded`
@@ -725,8 +725,10 @@ export class Hidemail {
   v1: API.V1 = new API.V1(this);
   user: API.User = new API.User(this);
 }
+
 Hidemail.V1 = V1;
 Hidemail.User = User;
+
 export declare namespace Hidemail {
   export type RequestOptions = Opts.RequestOptions;
 

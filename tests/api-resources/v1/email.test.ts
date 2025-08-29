@@ -8,7 +8,7 @@ const client = new Hidemail({
 });
 
 describe('resource email', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create', async () => {
     const responsePromise = client.v1.email.create();
     const rawResponse = await responsePromise.asResponse();
