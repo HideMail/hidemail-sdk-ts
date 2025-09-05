@@ -1,0 +1,42 @@
+{
+  "dxt_version": "0.1",
+  "name": "hidemail-mcp",
+  "version": "0.0.5",
+  "description": "The official MCP Server for the Hidemail API",
+  "author": {
+    "name": "Hidemail",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HideMail/hidemail-sdk-ts.git"
+  },
+  "homepage": "https://github.com/HideMail/hidemail-sdk-ts/tree/main/packages/mcp-server#readme",
+  "documentation": "https://hidemail.app/docs/",
+  "server": {
+    "type": "node",
+    "entry_point": "${__dirname}/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/index.js"],
+      "env": {
+        "HIDEMAIL_API_KEY": "${user_config.HIDEMAIL_API_KEY}"
+      }
+    }
+  },
+  "user_config": {
+    "HIDEMAIL_API_KEY": {
+      "title": "api_key",
+      "description": "You can retrieve your token by visiting your dashboard, find in menu <b>API tokens</b> and create a new one.",
+      "required": true,
+      "type": "string"
+    }
+  },
+  "tools_generated": true,
+  "compatibility": {
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "keywords": ["api"]
+}
