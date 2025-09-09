@@ -4,8 +4,7 @@
   "version": "0.0.5",
   "description": "The official MCP Server for the Hidemail API",
   "author": {
-    "name": "Hidemail",
-    "email": ""
+    "name": "Hidemail"
   },
   "repository": {
     "type": "git",
