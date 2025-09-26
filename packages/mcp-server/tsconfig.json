@@ -7,10 +7,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "paths": {
-      "hidemail-mcp/*": ["src/*"],
-      "hidemail-mcp": ["src/index.ts"]
+      "hidemail-mcp/*": ["./src/*"],
+      "hidemail-mcp": ["./src/index.ts"]
     },
     "noEmit": true,
 
