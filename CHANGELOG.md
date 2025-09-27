@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.2.0 (2025-09-27)
+
+Full Changelog: [v0.1.0...v0.2.0](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.1.0...v0.2.0)
+
+### Features
+
+* **mcp:** add option for including docs tools ([0545738](https://github.com/HideMail/hidemail-sdk-ts/commit/0545738ff71d29143e5d9958de2c4be9705042c7))
+* **mcp:** enable experimental docs search tool ([ac1250a](https://github.com/HideMail/hidemail-sdk-ts/commit/ac1250a4c36f5cc459517305053ec1775960f035))
+
+
+### Performance Improvements
+
+* faster formatting ([a0b1198](https://github.com/HideMail/hidemail-sdk-ts/commit/a0b11988f65c5747505715386b89b59680dfd26c))
+
+
+### Chores
+
+* **internal:** codegen related update ([c606b3b](https://github.com/HideMail/hidemail-sdk-ts/commit/c606b3b61301665eb31e9b0ec9d82077c69b9691))
+* **internal:** fix incremental formatting in some cases ([0129f63](https://github.com/HideMail/hidemail-sdk-ts/commit/0129f63858d918b86caa794b25fd9981f4b9355a))
+* **internal:** ignore .eslintcache ([a933ec6](https://github.com/HideMail/hidemail-sdk-ts/commit/a933ec6805e5343d10c159e0ee3c107d037cd7e7))
+* **internal:** remove deprecated `compilerOptions.baseUrl` from tsconfig.json ([7cb46c1](https://github.com/HideMail/hidemail-sdk-ts/commit/7cb46c11be68d4b3fce006a46bfdfd763ed688f8))
+* **mcp:** allow pointing `docs_search` tool at other URLs ([9695a49](https://github.com/HideMail/hidemail-sdk-ts/commit/9695a49a31e723265ba814d5a4f2127e1ac6c3d1))
+
 ## 0.1.0 (2025-09-20)
 
 Full Changelog: [v0.0.5...v0.1.0](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.0.5...v0.1.0)
