@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "hidemail/*": ["dist/src/*"],
-      "hidemail": ["dist/src/index.ts"]
+      "hidemail/*": ["./dist/src/*"],
+      "hidemail": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
