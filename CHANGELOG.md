@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.1 (2025-10-04)
+
+Full Changelog: [v0.2.0...v0.2.1](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.2.0...v0.2.1)
+
+### Bug Fixes
+
+* **mcp:** fix cli argument parsing logic ([c9c3200](https://github.com/HideMail/hidemail-sdk-ts/commit/c9c3200010909d12fe76e082619ef4b58fd12201))
+* **mcp:** resolve a linting issue in server code ([e789eb2](https://github.com/HideMail/hidemail-sdk-ts/commit/e789eb29b838d9ca3cf4d6493f1325ff0b55e904))
+
+
+### Chores
+
+* **internal:** remove .eslintcache ([c5c30f0](https://github.com/HideMail/hidemail-sdk-ts/commit/c5c30f0d9283b076e11c80d42d2a39e80ed9f4c9))
+* **jsdoc:** fix [@link](https://github.com/link) annotations to refer only to parts of the package‘s public interface ([2b9516c](https://github.com/HideMail/hidemail-sdk-ts/commit/2b9516c1a2baa4222a6e78a88a96f873b729a2cc))
+* update lockfile ([8ca32a8](https://github.com/HideMail/hidemail-sdk-ts/commit/8ca32a8f60dc21841507416b9533e0a023289b6b))
+
 ## 0.2.0 (2025-09-27)
 
 Full Changelog: [v0.1.0...v0.2.0](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.1.0...v0.2.0)
