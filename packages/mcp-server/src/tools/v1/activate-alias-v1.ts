@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { maybeFilter } from 'hidemail-mcp/filtering';
-import { Metadata, asTextContentResult } from 'hidemail-mcp/tools/types';
+import { isJqError, maybeFilter } from 'hidemail-mcp/filtering';
+import { Metadata, asErrorResult, asTextContentResult } from 'hidemail-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import Hidemail from 'hidemail';
@@ -40,7 +40,14 @@ export const tool: Tool = {
 
 export const handler = async (client: Hidemail, args: Record<string, unknown> | undefined) => {
   const { jq_filter, ...body } = args as any;
-  return asTextContentResult(await maybeFilter(jq_filter, await client.v1.activateAlias(body)));
+  try {
+    return asTextContentResult(await maybeFilter(jq_filter, await client.v1.activateAlias(body)));
+  } catch (error) {
+    if (isJqError(error)) {
+      return asErrorResult(error.message);
+    }
+    throw error;
+  }
 };
 
 export default { metadata, tool, handler };
