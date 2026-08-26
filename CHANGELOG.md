@@ -1,5 +1,46 @@
 # Changelog
 
+## 0.3.0 (2025-11-26)
+
+Full Changelog: [v0.2.0...v0.3.0](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.2.0...v0.3.0)
+
+### Features
+
+* **mcp:** add detail field to docs search tool ([5c486a1](https://github.com/HideMail/hidemail-sdk-ts/commit/5c486a16e84bdb580576276b6b647b2fca4b71e0))
+* **mcp:** enable optional code execution tool on http mcp servers ([07ebbe8](https://github.com/HideMail/hidemail-sdk-ts/commit/07ebbe83478e9dff87ae6ac1eff5a8f80d2f18aa))
+
+
+### Bug Fixes
+
+* **mcpb:** pin @anthropic-ai/mcpb version ([209ab97](https://github.com/HideMail/hidemail-sdk-ts/commit/209ab97c2c2c8c4dac63cb28ff4073a748bfcc26))
+* **mcp:** fix cli argument parsing logic ([c9c3200](https://github.com/HideMail/hidemail-sdk-ts/commit/c9c3200010909d12fe76e082619ef4b58fd12201))
+* **mcp:** resolve a linting issue in server code ([e789eb2](https://github.com/HideMail/hidemail-sdk-ts/commit/e789eb29b838d9ca3cf4d6493f1325ff0b55e904))
+* **mcp:** return tool execution error on jq failure ([04ed533](https://github.com/HideMail/hidemail-sdk-ts/commit/04ed533b74fe065a419ebf9f00409d53f026b492))
+
+
+### Chores
+
+* extract some types in mcp docs ([ceaed3e](https://github.com/HideMail/hidemail-sdk-ts/commit/ceaed3e0e7f31aca84c49376e86626e0d69e971b))
+* **internal:** codegen related update ([ade13fc](https://github.com/HideMail/hidemail-sdk-ts/commit/ade13fce0af83914898b01e2323f1a7652f5a67b))
+* **internal:** codegen related update ([ad9333f](https://github.com/HideMail/hidemail-sdk-ts/commit/ad9333f13938ec27480e844eb6d5aabfdb16c794))
+* **internal:** grammar fix (it's -&gt; its) ([b61ea0e](https://github.com/HideMail/hidemail-sdk-ts/commit/b61ea0e0be53210b66ab66be1dbeab65d224ba14))
+* **internal:** remove .eslintcache ([c5c30f0](https://github.com/HideMail/hidemail-sdk-ts/commit/c5c30f0d9283b076e11c80d42d2a39e80ed9f4c9))
+* **internal:** use npm pack for build uploads ([80cb2ba](https://github.com/HideMail/hidemail-sdk-ts/commit/80cb2ba528c97252d1ca84ca385b393ae266c927))
+* **jsdoc:** fix [@link](https://github.com/link) annotations to refer only to parts of the package‘s public interface ([2b9516c](https://github.com/HideMail/hidemail-sdk-ts/commit/2b9516c1a2baa4222a6e78a88a96f873b729a2cc))
+* mcp code tool explicit error message when missing a run function ([e8e1a5f](https://github.com/HideMail/hidemail-sdk-ts/commit/e8e1a5fa8b7663b6c77fb70636f69827dfaf7ac4))
+* **mcp:** add friendlier MCP code tool errors on incorrect method invocations ([561a5b1](https://github.com/HideMail/hidemail-sdk-ts/commit/561a5b1e5d68f58129fd4a29ac5b5736f77330a9))
+* **mcp:** add line numbers to code tool errors ([c4b8ca9](https://github.com/HideMail/hidemail-sdk-ts/commit/c4b8ca9f769c1912bc08806563925d4bf4b5ae9f))
+* **mcp:** clarify http auth error ([9c56a5a](https://github.com/HideMail/hidemail-sdk-ts/commit/9c56a5aa0dc23892c9a6c7b0e8457f416323542c))
+* **mcp:** upgrade jq-web ([0e3da52](https://github.com/HideMail/hidemail-sdk-ts/commit/0e3da5242752bfb6d80d5ec0fa751a699fa8c5ca))
+* update lockfile ([8ca32a8](https://github.com/HideMail/hidemail-sdk-ts/commit/8ca32a8f60dc21841507416b9533e0a023289b6b))
+* use structured error when code execution tool errors ([cf3d051](https://github.com/HideMail/hidemail-sdk-ts/commit/cf3d051810b3ded4f597347885a684eab04fd093))
+
+
+### Documentation
+
+* **mcp:** add a README button for one-click add to Cursor ([d5b1e22](https://github.com/HideMail/hidemail-sdk-ts/commit/d5b1e22dadb0ae559edc6c2c2751323f6ef1677a))
+* **mcp:** add a README link to add server to VS Code or Claude Code ([6013a89](https://github.com/HideMail/hidemail-sdk-ts/commit/6013a896e44780548fe9020ff1bb1f95a9df1498))
+
 ## 0.2.0 (2025-09-27)
 
 Full Changelog: [v0.1.0...v0.2.0](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.1.0...v0.2.0)
