@@ -1,7 +1,6 @@
 import fs from 'fs';
 import type { ResponseLike } from 'hidemail/internal/to-file';
 import { toFile } from 'hidemail/core/uploads';
-import { File } from 'node:buffer';
 
 class MyClass {
   name: string = 'foo';
