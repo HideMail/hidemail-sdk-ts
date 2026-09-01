@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.1 (2026-09-01)
+
+Full Changelog: [v0.3.0...v0.3.1](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.3.0...v0.3.1)
+
+### Chores
+
+* configure new SDK language ([dbfdacb](https://github.com/HideMail/hidemail-sdk-ts/commit/dbfdacbacc763ffaa877d30c61eccafe0b8b390f))
+
+
+### Documentation
+
+* **mcp:** document code execution modes and the local code runner ([be299a9](https://github.com/HideMail/hidemail-sdk-ts/commit/be299a9423952a4ef6c776f8dd8ab09ccde21c18))
+
 ## 0.3.0 (2025-11-26)
 
 Full Changelog: [v0.2.0...v0.3.0](https://github.com/HideMail/hidemail-sdk-ts/compare/v0.2.0...v0.3.0)

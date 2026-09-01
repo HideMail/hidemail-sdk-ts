@@ -28,7 +28,7 @@ export const newMcpServer = async ({
   new McpServer(
     {
       name: 'hidemail_api',
-      version: '0.3.0',
+      version: '0.3.1',
     },
     {
       instructions: await getInstructions({ stainlessApiKey, customInstructionsPath }),
